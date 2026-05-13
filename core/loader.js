@@ -1,8 +1,8 @@
 var emulator = new V86({
-    wasm_path: "path/to/v86.wasm",
+    wasm_path: "core/v86.wasm",
     screen_container: document.getElementById("screen_container"),
-    bios: { url: "path/to/seabios.bin" },
-    vga_bios: { url: "path/to/vgabios.bin" },
-    cdrom: { url: "path/to/linux.iso" },
+    bios: { url: "core/seabios.bin" },
+    vga_bios: { url: "core/vgabios.bin" },
+    cdrom: { url: "core/linux.iso" },
     autostart: true,
 });
