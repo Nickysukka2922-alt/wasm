@@ -3,6 +3,6 @@ var emulator = new V86({
     screen_container: document.getElementById("screen_container"),
     bios: { url: "core/seabios.bin" },
     vga_bios: { url: "core/vgabios.bin" },
-    cdrom: { url: "core/linux.iso" },
+    cdrom: { url: "core/nico_os.iso" },
     autostart: true,
 });
